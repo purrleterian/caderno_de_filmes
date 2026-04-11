@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Caderno_de_filmess">
         <activity
+            android:name=".PerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FilmActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

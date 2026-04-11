@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/film"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilmActivity"
+    android:orientation="vertical"
+    android:background="@color/app_1">
+
+    <RelativeLayout
+        android:id="@+id/container_NavBar_Filme"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/app_2">
+
+        <Button
+            android:id="@+id/btn_Voltar_Filme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/app_1"
+            android:text="Voltar"
+            android:textSize="20sp"/>
+
+        <SearchView
+            android:id="@+id/search_Filme_Filme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/app_1"
+            app:queryHint="Pesquisar filmes"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:id="@+id/perfil_Filme"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@color/white"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_Filme"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/image_Filme"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@color/white"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/name_Filme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/image_Filme"
+            android:layout_alignEnd="@+id/image_Filme"
+
+            android:layout_below="@+id/image_Filme"
+
+            tools:text="Lorem Ipsum"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:gravity="center|top"/>
+
+        <TextView
+            android:id="@+id/time_filme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:text="Lorem"
+            android:layout_above="@+id/date_Filme"
+            android:layout_alignStart="@+id/image_Filme"
+            android:layout_alignEnd="@+id/image_Filme"/>
+
+        <TextView
+            android:id="@+id/date_Filme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:text="Lorem"
+            android:layout_above="@+id/stars_Filme"
+            android:layout_alignStart="@+id/image_Filme"
+            android:layout_alignEnd="@+id/image_Filme"/>
+        <CheckBox
+            android:id="@+id/checkbox_Filme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:buttonTint="@color/star_0"/>
+
+        <RatingBar
+            android:id="@+id/stars_Filme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:progressTint="@color/app_2"
+            android:progressBackgroundTint="@color/star_0"/>
+
+        <ScrollView
+            android:id="@+id/scrool_Sinopse_Filme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/stars_Filme"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="1dp"
+            android:layout_toEndOf="@+id/image_Filme">
+
+            <TextView
+                android:id="@+id/sinopse_Filme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices, urna congue convallis pharetra, nunc eros egestas nisl, in mattis mi neque vel purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin vel leo dui. Cras id urna suscipit, blandit augue id, suscipit sapien. Proin ac magna quis est interdum scelerisque." />
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrol_Filme_Review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/review_Filme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </ScrollView>
+    <Button
+        android:id="@+id/btn_Save_Review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Salvar"
+        android:backgroundTint="@color/app_2"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>'
+
+
+</LinearLayout>
