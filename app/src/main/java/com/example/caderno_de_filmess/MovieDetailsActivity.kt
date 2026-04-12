@@ -9,6 +9,8 @@ import androidx.core.view.WindowInsetsCompat
 import com.bumptech.glide.Glide
 import com.example.caderno_de_filmess.databinding.ActivityMovieDetailsBinding
 import com.example.caderno_de_filmess.models.Movie
+import com.google.android.material.chip.Chip
+import java.util.Locale.getDefault
 
 class MovieDetailsActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMovieDetailsBinding
@@ -78,6 +80,20 @@ class MovieDetailsActivity : AppCompatActivity() {
         onBackPressedDispatcher.onBackPressed()
     }
 
+    fun loadGenres() {
+        binding.genresGroup.removeAllViews()
+
+        movie.genres.forEach { genre ->
+            val chip = Chip(this).apply {
+                text = genre.lowercase(getDefault()).replaceFirstChar { it.uppercase() }
+                isClickable = false
+                isCheckable = false
+            }
+
+            binding.genresGroup.addView(chip)
+        }
+    }
+
     private fun bindMovie() {
         Glide.with(this)
             .load(movie.thumb)
@@ -88,6 +104,7 @@ class MovieDetailsActivity : AppCompatActivity() {
         binding.description.text = movie.description
         binding.rating.rating = store.getRating(movie.id)
         binding.watchedCheckbox.isChecked = store.isMovieAdded(movie.id)
+        loadGenres()
 
     }
 }

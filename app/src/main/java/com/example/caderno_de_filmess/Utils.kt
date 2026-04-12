@@ -27,9 +27,18 @@ class Utils {
             return movies.find { it.id == id }
         }
 
-        fun getMoviesByIds(context: Context, ids: Set<Int>): List<Movie> {
+        fun getAllGenres(context: Context): Set<String> {
             val movies = getMovies(context)
-            return movies.filter { ids.contains(it.id) }
+
+            val genres = mutableSetOf<String>()
+
+            movies.forEach { movie ->
+                movie.genres.forEach { genre ->
+                    genres.add(genre.lowercase())
+                }
+            }
+
+            return genres
         }
     }
 }

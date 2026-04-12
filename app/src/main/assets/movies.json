@@ -3,48 +3,56 @@
     "id": 1,
     "title": "O ataque dos códigos assasinos",
     "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/3f/c2/__sunna_zenless_zone_zero_drawn_by_dl_dl_6ix__3fc2a82f392f95ac3542c6ddc5dc7788.jpg"
+    "thumb": "https://cdn.donmai.us/original/3f/c2/__sunna_zenless_zone_zero_drawn_by_dl_dl_6ix__3fc2a82f392f95ac3542c6ddc5dc7788.jpg",
+    "genres": ["ação", "terror", "suspense"]
   },
   {
     "id": 2,
     "title": "O ataque dos códigos assasinos 2",
     "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar... Denovo!!! eu não sei mais oq escrever socorro aaaaaaaaaa. btw, voces sabiam que a maioria das empresas de tecnologia moderna, incluindo o discord, tem alguma parte delas compara pela tencent? tenebroso de fato",
-    "thumb": "https://cdn.donmai.us/original/d6/dd/__hatsune_miku_vocaloid_and_1_more_drawn_by_sawtowne__d6dd9aaacecc0665f4e72a74cb97a1e8.png"
+    "thumb": "https://cdn.donmai.us/original/d6/dd/__hatsune_miku_vocaloid_and_1_more_drawn_by_sawtowne__d6dd9aaacecc0665f4e72a74cb97a1e8.png",
+    "genres": ["ação", "terror", "suspense", "romance"]
   },
   {
     "id": 3,
     "title": "O ataque dos códigos assasinos",
     "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/3f/c2/__sunna_zenless_zone_zero_drawn_by_dl_dl_6ix__3fc2a82f392f95ac3542c6ddc5dc7788.jpg"
+    "thumb": "https://cdn.donmai.us/original/3f/c2/__sunna_zenless_zone_zero_drawn_by_dl_dl_6ix__3fc2a82f392f95ac3542c6ddc5dc7788.jpg",
+    "genres": ["ação", "terror", "suspense", "Drogas", "Crime"]
   },
   {
     "id": 4,
     "title": "O ataque dos códigos assasinos 2",
     "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/d6/dd/__hatsune_miku_vocaloid_and_1_more_drawn_by_sawtowne__d6dd9aaacecc0665f4e72a74cb97a1e8.png"
+    "thumb": "https://cdn.donmai.us/original/d6/dd/__hatsune_miku_vocaloid_and_1_more_drawn_by_sawtowne__d6dd9aaacecc0665f4e72a74cb97a1e8.png",
+    "genres": ["ação", "terror", "suspense"]
   },
   {
     "id": 5,
     "title": "O ataque dos códigos assasinos",
     "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/3f/c2/__sunna_zenless_zone_zero_drawn_by_dl_dl_6ix__3fc2a82f392f95ac3542c6ddc5dc7788.jpg"
+    "thumb": "https://cdn.donmai.us/original/3f/c2/__sunna_zenless_zone_zero_drawn_by_dl_dl_6ix__3fc2a82f392f95ac3542c6ddc5dc7788.jpg",
+    "genres": ["ação", "terror", "suspense"]
   },
   {
     "id": 6,
     "title": "O ataque dos códigos assasinos 2",
     "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/d6/dd/__hatsune_miku_vocaloid_and_1_more_drawn_by_sawtowne__d6dd9aaacecc0665f4e72a74cb97a1e8.png"
+    "thumb": "https://cdn.donmai.us/original/d6/dd/__hatsune_miku_vocaloid_and_1_more_drawn_by_sawtowne__d6dd9aaacecc0665f4e72a74cb97a1e8.png",
+    "genres": ["ação", "terror", "suspense", "romance"]
   },
   {
     "id": 7,
     "title": "O ataque dos códigos assasinos",
     "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/3f/c2/__sunna_zenless_zone_zero_drawn_by_dl_dl_6ix__3fc2a82f392f95ac3542c6ddc5dc7788.jpg"
+    "thumb": "https://cdn.donmai.us/original/3f/c2/__sunna_zenless_zone_zero_drawn_by_dl_dl_6ix__3fc2a82f392f95ac3542c6ddc5dc7788.jpg",
+    "genres": ["ação", "terror", "suspense"]
   },
   {
     "id": 8,
     "title": "O ataque dos códigos assasinos 2",
     "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/d6/dd/__hatsune_miku_vocaloid_and_1_more_drawn_by_sawtowne__d6dd9aaacecc0665f4e72a74cb97a1e8.png"
+    "thumb": "https://cdn.donmai.us/original/d6/dd/__hatsune_miku_vocaloid_and_1_more_drawn_by_sawtowne__d6dd9aaacecc0665f4e72a74cb97a1e8.png",
+    "genres": ["ação", "terror", "suspense", "romance"]
   }
 ]

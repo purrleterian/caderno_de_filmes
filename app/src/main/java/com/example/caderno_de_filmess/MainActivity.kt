@@ -10,17 +10,21 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.caderno_de_filmess.components.HorizontalMovieCard
 import com.example.caderno_de_filmess.components.VerticalMovieCard
 import com.example.caderno_de_filmess.databinding.ActivityMainBinding
-import kotlin.math.PI
+import com.example.caderno_de_filmess.models.Movie
+import com.google.android.material.chip.Chip
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var store: MoviesStore
+    private val selectedGenres = mutableSetOf<String>()
+    private var filteredMovies = listOf<Movie>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
         store = MoviesStore(this)
+        filteredMovies = Utils.getMovies(this)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -33,16 +37,57 @@ class MainActivity : AppCompatActivity() {
         }
 
         loadMovies()
+        loadGenres()
     }
 
     override fun onResume() {
         super.onResume()
-        binding.myMoviesContainer.removeAllViews()
+        loadMyMovies()
+    }
+
+    fun loadGenres() {
+        val genres = Utils.getAllGenres(this)
+
+        genres.forEach { genre ->
+            val chip = Chip(this).apply {
+                text = genre.replaceFirstChar { it.uppercase() }
+                isCheckable = true
+                isClickable = true
+
+                setOnCheckedChangeListener { _, isChecked ->
+                    if (isChecked) {
+                        selectedGenres.add(genre)
+                    } else {
+                        selectedGenres.remove(genre)
+                    }
+
+                    filterMovies()
+                }
+            }
+
+            binding.genresChipGroup.addView(chip)
+        }
+    }
+
+    fun filterMovies() {
+        filteredMovies = if (selectedGenres.isEmpty()) {
+            Utils.getMovies(this)
+        } else {
+            Utils.getMovies(this).filter { movie ->
+                selectedGenres.all { selected ->
+                    movie.genres.map { it.lowercase() }.contains(selected)
+                }
+            }
+        }
+        loadMovies()
         loadMyMovies()
     }
 
     fun loadMyMovies() {
-        val movies = Utils.getMoviesByIds(this, store.getMyMovies());
+        val myMoviesIds = store.getMyMovies()
+        val movies = filteredMovies.filter {  myMoviesIds.contains(it.id) }
+
+        binding.myMoviesContainer.removeAllViews()
 
         if (movies.isEmpty()) {
             binding.myMoviesTitle.visibility = View.GONE
@@ -75,9 +120,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loadMovies() {
-        val movies = Utils.getMovies(this)
+        binding.moviesContainer.removeAllViews()
 
-        movies.forEach { movie ->
+        filteredMovies.forEach { movie ->
             val view = HorizontalMovieCard(this)
 
             view.setData(
