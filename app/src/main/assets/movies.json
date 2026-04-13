@@ -1,58 +1,58 @@
 [
   {
     "id": 1,
-    "title": "O ataque dos códigos assasinos",
-    "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/3f/c2/__sunna_zenless_zone_zero_drawn_by_dl_dl_6ix__3fc2a82f392f95ac3542c6ddc5dc7788.jpg",
-    "genres": ["ação", "terror", "suspense"]
+    "title": "O Drama",
+    "description": "Os planos perfeitos de casamento de um casal entram em caos quando um segredo chocante vem à tona dias antes da cerimônia.",
+    "thumb": "https://m.media-amazon.com/images/M/MV5BNDM2Zjg2NmEtMWI5Ni00YzA1LTk0ZmQtZmM1YTAwMWNmMmNlXkEyXkFqcGc@._V1_.jpg",
+    "genres": ["comedia", "drama", "romance"]
   },
   {
     "id": 2,
-    "title": "O ataque dos códigos assasinos 2",
-    "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar... Denovo!!! eu não sei mais oq escrever socorro aaaaaaaaaa. btw, voces sabiam que a maioria das empresas de tecnologia moderna, incluindo o discord, tem alguma parte delas compara pela tencent? tenebroso de fato",
-    "thumb": "https://cdn.donmai.us/original/d6/dd/__hatsune_miku_vocaloid_and_1_more_drawn_by_sawtowne__d6dd9aaacecc0665f4e72a74cb97a1e8.png",
-    "genres": ["ação", "terror", "suspense", "romance"]
+    "title": "Devoradores de Estrelas",
+    "description": "Um astronauta tenta salvar a Terra enquanto está sozinho no espaço sideral.",
+    "thumb": "https://m.media-amazon.com/images/M/MV5BNTJlOTRhMGMtOTI5MC00ZmEyLWE3NDItMDBiMDRkYTFiMTY2XkEyXkFqcGc@._V1_.jpg",
+    "genres": ["ação", "aventura", "épico", "ficção ciêntifica"]
   },
   {
     "id": 3,
-    "title": "O ataque dos códigos assasinos",
-    "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/3f/c2/__sunna_zenless_zone_zero_drawn_by_dl_dl_6ix__3fc2a82f392f95ac3542c6ddc5dc7788.jpg",
-    "genres": ["ação", "terror", "suspense", "Drogas", "Crime"]
+    "title": "O Fantástico Sr. Raposo",
+    "description": "Um raposo não pode resistir a retornar às suas incursões agrícolas e, em seguida, deve ajudar sua comunidade a sobreviver às represálias dos agricultores.",
+    "thumb": "https://m.media-amazon.com/images/M/MV5BNmNjYzMyZGMtMjNjMC00NjA3LWI2YzMtY2IzNGU3YjBiYWQ2XkEyXkFqcGc@._V1_.jpg",
+    "genres": ["animação", "comédia", "aventura", "Crime"]
   },
   {
     "id": 4,
-    "title": "O ataque dos códigos assasinos 2",
-    "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/d6/dd/__hatsune_miku_vocaloid_and_1_more_drawn_by_sawtowne__d6dd9aaacecc0665f4e72a74cb97a1e8.png",
-    "genres": ["ação", "terror", "suspense"]
+    "title": "Cinema Paradiso",
+    "description": "Um diretor de cinema lembra como, em sua infância, ele se apaixonou pelo cinema de sua cidade e iniciou uma profunda amizade com o projecionista.",
+    "thumb": "https://m.media-amazon.com/images/M/MV5BOWMzMDkwYjAtMGE1My00ODY1LTllMTItOTIzNjc2YWE3MWFlXkEyXkFqcGc@._V1_.jpg",
+    "genres": ["drama", "romance", "amadurecimento"]
   },
   {
     "id": 5,
-    "title": "O ataque dos códigos assasinos",
-    "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/3f/c2/__sunna_zenless_zone_zero_drawn_by_dl_dl_6ix__3fc2a82f392f95ac3542c6ddc5dc7788.jpg",
-    "genres": ["ação", "terror", "suspense"]
+    "title": "Fargo: Uma Comédia de Erros",
+    "description": "O crime de Jerry Lundegaard se desfaz devido à falta de sorte dele e de seus colegas e ao persistente trabalho polícia.",
+    "thumb": "https://m.media-amazon.com/images/M/MV5BNjg4MWE0MjEtODFhNy00MjA5LTg5ODktMzgwNWFmZTAwNjBlXkEyXkFqcGc@._V1_.jpg",
+    "genres": ["comédia", "suspense"]
   },
   {
     "id": 6,
-    "title": "O ataque dos códigos assasinos 2",
-    "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/d6/dd/__hatsune_miku_vocaloid_and_1_more_drawn_by_sawtowne__d6dd9aaacecc0665f4e72a74cb97a1e8.png",
-    "genres": ["ação", "terror", "suspense", "romance"]
+    "title": "Hamnet: A Vida Antes de Hamlet",
+    "description": "Em 1596, Agnes e William Shakespeare perdem seu jovem filho Hamnet. Apesar da dor, Agnes cuida de seus filhos sobreviventes, enquanto William encontra na sua tristeza a inspiração para escrever Hamlet.",
+    "thumb": "https://m.media-amazon.com/images/M/MV5BMzc3Mjg0ZWEtMDJkYi00Zjc5LTk3ODItZmE2NWY2MWQ2ZjhiXkEyXkFqcGc@._V1_.jpg",
+    "genres": ["romance", "drama"]
   },
   {
     "id": 7,
-    "title": "O ataque dos códigos assasinos",
-    "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/3f/c2/__sunna_zenless_zone_zero_drawn_by_dl_dl_6ix__3fc2a82f392f95ac3542c6ddc5dc7788.jpg",
-    "genres": ["ação", "terror", "suspense"]
+    "title": "Pânico",
+    "description": "Um ano após o assassinato de sua mãe, uma adolescente é aterrorizada por um novo assassino que a escolheu como alvo e usa filmes de terror como parte de seu jogo mortal.",
+    "thumb": "https://m.media-amazon.com/images/M/MV5BNWRhZjc5YzMtY2FkNS00ZTMwLTg1ODktYzAwNTM0MDc4NmEzXkEyXkFqcGc@._V1_.jpg",
+    "genres": ["terror", "mistério", "suspense", "comédia"]
   },
   {
     "id": 8,
-    "title": "O ataque dos códigos assasinos 2",
-    "description": "Codigos matam, você tem que fugir deles, ou eles vão te matar",
-    "thumb": "https://cdn.donmai.us/original/d6/dd/__hatsune_miku_vocaloid_and_1_more_drawn_by_sawtowne__d6dd9aaacecc0665f4e72a74cb97a1e8.png",
-    "genres": ["ação", "terror", "suspense", "romance"]
+    "title": "Central do Brasil",
+    "description": "Uma jornada emocionante de uma ex-professora que escreve cartas para pessoas analfabetas e um menino cuja mãe acabou de morrer, em busca do pai que ele nunca conheceu.",
+    "thumb": "https://m.media-amazon.com/images/M/MV5BMWI3YTg2YmItY2QzYi00NTc2LWExNTQtYWE4ZmIzNjE3ZjMyXkEyXkFqcGc@._V1_.jpg",
+    "genres": ["tragédia", "drama"]
   }
 ]
